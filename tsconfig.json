@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/lib/get-session.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "lib/get-session.ts"],
   "exclude": ["node_modules"]
 }

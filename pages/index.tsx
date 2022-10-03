@@ -2,9 +2,15 @@ import type { NextPage } from 'next'
 import { getSession } from "./lib/get-session";
 
 const Home: NextPage = ({ views }: any) => {
-  return (
-    <div>In this session, you have visited this website {views} time(s).</div>
-  )
+
+  if(views){
+    return (
+      <div>In this session, you have visited this website {views} time(s).</div>
+    )
+  }
+
+  return <div>loading...</div>
+  
 }
 
 

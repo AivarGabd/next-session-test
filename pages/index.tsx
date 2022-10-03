@@ -9,8 +9,7 @@ const Home: NextPage = ({ views }: any) => {
     )
   }
 
-  return <div>loading...</div>
-  
+  return <div>loading...</div>  
 }
 
 
